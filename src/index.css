@@ -22,11 +22,15 @@ a {
 
 
 body {
+    display: flex;
+    justify-content: center;
+    
     background-color: #23252C;
     font-family: Inter, sans-serif;
 
-    width: 34.37rem;
-    height: 114.66rem;
+    
+    width: 100%;
+    min-height: 100vh; 
     
 }
 
