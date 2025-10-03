@@ -1,6 +1,6 @@
-import './Info.css';
+import './Header.css';
 
-function Info() {
+function Header() {
     return (
         <>
             <h2>Header Component</h2>
@@ -8,4 +8,4 @@ function Info() {
     );
 }
 
-export default Info;
+export default Header;
