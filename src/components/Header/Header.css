@@ -1,9 +1,36 @@
+.container-business-card {
+    max-width: 19.81rem;
+}
+
 .profile-picture {
     height: 19.81rem;
     width: 19.81rem;
 }
 
-.business-card {
-    background-color: #1A1B21;
-    max-width: 19.81rem;
+.profile-name {
+    color: #ffffff;
+
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.profile-role {
+    color: #F3BF99;
+    
+    font-size: 0.75rem;
+}
+
+.profile-email {
+    color: #ffffff;
+
+    font-size: 0.6rem;
+}
+
+.container-description {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1.5rem 1.5rem;
+
 }

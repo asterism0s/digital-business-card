@@ -3,9 +3,13 @@ import profilePic from '../../assets/profile-picture.svg'
 
 function Header() {
     return (
-        <div className='business-card'>
+        <div className='container-business-card'>
             <img className='profile-picture' src={profilePic} alt='profile picture'></img>
-            <h2 className=''>Sarah Siqueira</h2>
+            <div className='container-description'>
+                <p className='profile-name'>Sarah Siqueira</p>
+                <p className='profile-role'>Web Developer</p>
+                <p className='profile-email'>sarahssiqueira@proton.me</p>
+            </div>
         </div>
     );
 }
