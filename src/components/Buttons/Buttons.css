@@ -38,6 +38,7 @@
 .button-email {
     color: #374151;
     background-color: #ffffff;
+    border: solid 1px #d1d5db;
 }
 
 .button-linkedin {

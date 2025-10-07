@@ -1,0 +1,15 @@
+.title-about {
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: bold;
+
+    padding-bottom: 0.4rem;
+}
+
+.about-description {
+    color: #ffffff;
+    font-size: 0.8rem;
+    line-height: 1.5;
+
+    padding-bottom: 1.5rem;
+}

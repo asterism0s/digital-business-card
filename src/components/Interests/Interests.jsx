@@ -3,7 +3,10 @@ import './Interests.css';
 function Interests() {
     return (
         <>
-            <h2>Interests Component</h2>
+            <p className='title-interests'>Interests</p>
+            <p className='interests-description'>
+                Gaming guru. Book lover. K-pop enthusiast. Anime addict. Polenta connoisseur.
+            </p>
         </>
     );
 }
