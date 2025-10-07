@@ -7,7 +7,7 @@ import './App.css';
 
 function App() {
     return (
-        <div className='business-card'>
+        <div className='container-business-card'>
             <Header />
             <Buttons />
             <About />
