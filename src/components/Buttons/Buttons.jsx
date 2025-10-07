@@ -5,14 +5,14 @@ import linkedinIcon from '../../assets/linkedin-icon.svg';
 function Buttons() {
     return (
         <div className='container-buttons'>
-            <button className='button button-email'>
-                <img className='button-icon' src={emailIcon} alt='email icon'/>
+            <a href="mailto:sarahssiqueira@proton.me" className="button button-email">
+                <img className='button-icon' src={emailIcon} alt='email icon'></img>
                 Email
-            </button>
-            <button className='button button-linkedin'>
-                <img className='button-icon' src={linkedinIcon} alt='linkedin icon'/>
+            </a>
+            <a  href="https://www.linkedin.com/in/sarah-siqueira/" className="button button-linkedin" target="_blank"rel="noopener noreferrer">
+                <img className='button-icon' src={linkedinIcon} alt='linkedin icon'></img>
                 Linkedin
-            </button>
+            </a>
         </div>
     );
 }
