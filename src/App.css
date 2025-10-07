@@ -6,3 +6,8 @@
     overflow: hidden;
 }
 
+.container-business-card > :not(.business-card) {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
